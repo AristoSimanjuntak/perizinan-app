@@ -50,7 +50,7 @@
             margin: 0;
             justify-content: center;
             background-repeat: repeat;
-            
+
             display: flex;
 
         }
@@ -73,10 +73,10 @@
                 <div class="row row-sm">
                     <div class="col-lg-6 col-xl-5 d-none d-lg-block">
                         <div class="mt-5 pt-4 p-2 pos-absolute">
-                            <h2 class="mt-0 text-primary">DPMPTSP </h2>
+                            
                             <div class="clearfix"></div>
-                            <img src="<?= base_url('/img/logo-siantar.png') ?>" class="ht-250 mb-0" alt="user">
-                            <h5 class="p-3  text-primary">Kota Pematangsiantar</h5>
+                            <img src="<?= base_url('/img/walikota2.png') ?>" class="ht-350 mb-0" alt="user">
+                            
                             <span class="tx-white-6 tx-13 mb-5 mt-xl-0"></span>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                         <div class="container">
                             <div class="row row-sm">
                                 <div class="card-body mt-2 mb-2">
-                                    <img src="<?= base_url('/img/logo-siantar.png') ?>" class=" d-lg-none header-brand-img text-center float-center mb-4 ht-100 " alt="logo">
+                                    <img src="<?= base_url('/img/walikota2.png') ?>" class=" d-lg-none header-brand-img text-center float-center mb-4 ht-100 " alt="logo">
                                     <div class="clearfix"></div>
                                     <form action="/auth/login" method="post">
                                         <h5 class="text-left mb-2">Aplikasi SIMPADU</h5>
