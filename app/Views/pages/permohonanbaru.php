@@ -71,13 +71,85 @@
                                                         <div class="col-lg-12 col-md-12">
                                                             <div class="card custom-card">
                                                                 <div class="card-body">
-                                                                    <form action="<?= base_url('/') ?>" method="post">
-                                                                        <input type="hidden" name="_method" value="PUT" />
+                                                                    <form action="" method="post">
+                                                                        <input type="hidden" name="_method" value="POST" />
                                                                         <div class="">
-                                                                            <div class="form-group">
-                                                                                <label class="">Nama Agenda Rapat</label>
-                                                                                <input class="form-control" required="" placeholder="Isi Nama Agenda Rapat" type="text" id="" name="" value="">
+                                                                            <div class="row">
+                                                                                <div class="col">
+                                                                                    <div class="form-group">
+                                                                                        <label class="main-content-label tx-11 tx-medium tx-gray-600">Jenis Izin</label>
+                                                                                        <select name="contry" class="form-control select1">
+                                                                                            <option value="">Pilih Jenis Izin</option>
+                                                                                            <option value="laki">1</option>
+                                                                                            <option value="perempuan">2</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col">
+                                                                                    <div class="form-group">
+                                                                                        <label class="main-content-label tx-11 tx-medium tx-gray-600">Jenis Permohonan</label>
+                                                                                        <select name="contry" class="form-control select1">
+                                                                                            <option value="">Pilih Jenis Permohonan</option>
+                                                                                            <option value="laki">1</option>
+                                                                                            <option value="perempuan">2</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
                                                                             </div>
+                                                                            <div class="form-group">
+                                                                                <div>
+                                                                                    <label class="main-content-label mb-1 tx-gray-600">Sarana Kesehatan</label>
+                                                                                </div>
+                                                                                <div class="">
+                                                                                    <div class="row row-xs align-items-center mg-b-20">
+                                                                                        <div class="col-md-4">
+                                                                                            <label class="main-content-label tx-11 tx-medium tx-gray-600">Izin Sebagai</label>
+                                                                                        </div>
+                                                                                        <div class="col-md-8 mg-t-5 mg-md-t-0">
+                                                                                            <select name="contry" class="form-control select1 main-content-label tx-11 tx-medium tx-gray-600">
+                                                                                                <option value="">Pilih Izin</option>
+                                                                                                <option value="laki">1</option>
+                                                                                                <option value="perempuan">2</option>
+                                                                                            </select>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="row row-xs align-items-center mg-b-20">
+                                                                                        <div class="col-md-4">
+                                                                                            <label class="main-content-label tx-11 tx-medium tx-gray-600">No STR/SK</label>
+                                                                                        </div>
+                                                                                        <div class="col-md-8 mg-t-5 mg-md-t-0">
+                                                                                            <input class="form-control" placeholder="Contoh : 02 01 7 2 2 21 - 40288095" type="text">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="row row-xs align-items-center mg-b-20">
+                                                                                        <div class="col-md-4 ">
+                                                                                            <label class="main-content-label tx-11 tx-medium tx-gray-600">Kategori Massa Berlaku STR</label>
+                                                                                        </div>
+                                                                                        <div class="col-md-8 mg-t-5 mg-md-t-0">
+                                                                                            <select name="contry" class="form-control select1">
+                                                                                                <option value="">Pilih Izin</option>
+                                                                                                <option value="laki">1</option>
+                                                                                                <option value="perempuan">2</option>
+                                                                                            </select>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="row row-xs align-items-center mg-b-20">
+                                                                                        <div class="col-md-4">
+                                                                                            <label class="main-content-label tx-11 tx-medium tx-gray-600">Izin Praktik Ke</label>
+                                                                                        </div>
+                                                                                        <div class="col-md-8 mg-t-5 mg-md-t-0">
+                                                                                            <input class="form-control" placeholder="Izin Praktik Ke" type="praktik">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="form-group row justify-content-end mb-0">
+                                                                                        <div class="col-md-8 pl-md-2">
+                                                                                            <button class="btn ripple btn-secondary pd-x-30">Ambil Data Sarana</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <br>
                                                                             <div>
                                                                                 <button class="btn btn-main-primary " type="submit">Simpan</button>
                                                                                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Batal</button>
@@ -115,10 +187,81 @@
                                             <form action="" method="post">
                                                 <input type="hidden" name="_method" value="POST" />
                                                 <div class="">
-                                                    <div class="form-group">
-                                                        <label class="">Nama</label>
-                                                        <input class="form-control" required="" placeholder="t" type="text">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <label class="main-content-label tx-11 tx-medium tx-gray-600">Jenis Izin</label>
+                                                                <select name="contry" class="form-control select1">
+                                                                    <option value="">Pilih Jenis Izin</option>
+                                                                    <option value="laki">1</option>
+                                                                    <option value="perempuan">2</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <label class="main-content-label tx-11 tx-medium tx-gray-600">Jenis Permohonan</label>
+                                                                <select name="contry" class="form-control select1">
+                                                                    <option value="">Pilih Jenis Permohonan</option>
+                                                                    <option value="laki">1</option>
+                                                                    <option value="perempuan">2</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
                                                     </div>
+                                                    <div class="form-group">
+                                                        <div>
+                                                            <label class="main-content-label mb-1 tx-gray-600">Sarana Kesehatan</label>
+                                                        </div>
+                                                        <div class="">
+                                                            <div class="row row-xs align-items-center mg-b-20">
+                                                                <div class="col-md-4">
+                                                                    <label class="main-content-label tx-11 tx-medium tx-gray-600">Izin Sebagai</label>
+                                                                </div>
+                                                                <div class="col-md-8 mg-t-5 mg-md-t-0">
+                                                                    <select name="contry" class="form-control select1 main-content-label tx-11 tx-medium tx-gray-600">
+                                                                        <option value="">Pilih Izin</option>
+                                                                        <option value="laki">1</option>
+                                                                        <option value="perempuan">2</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row row-xs align-items-center mg-b-20">
+                                                                <div class="col-md-4">
+                                                                    <label class="main-content-label tx-11 tx-medium tx-gray-600">No STR/SK</label>
+                                                                </div>
+                                                                <div class="col-md-8 mg-t-5 mg-md-t-0">
+                                                                    <input class="form-control" placeholder="Contoh : 02 01 7 2 2 21 - 40288095" type="text">
+                                                                </div>
+                                                            </div>
+                                                            <div class="row row-xs align-items-center mg-b-20">
+                                                                <div class="col-md-4 ">
+                                                                    <label class="main-content-label tx-11 tx-medium tx-gray-600">Kategori Massa Berlaku STR</label>
+                                                                </div>
+                                                                <div class="col-md-8 mg-t-5 mg-md-t-0">
+                                                                    <select name="contry" class="form-control select1">
+                                                                        <option value="">Pilih Izin</option>
+                                                                        <option value="laki">1</option>
+                                                                        <option value="perempuan">2</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row row-xs align-items-center mg-b-20">
+                                                                <div class="col-md-4">
+                                                                    <label class="main-content-label tx-11 tx-medium tx-gray-600">Izin Praktik Ke</label>
+                                                                </div>
+                                                                <div class="col-md-8 mg-t-5 mg-md-t-0">
+                                                                    <input class="form-control" placeholder="Izin Praktik Ke" type="praktik">
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group row justify-content-end mb-0">
+                                                                <div class="col-md-8 pl-md-2">
+                                                                    <button class="btn ripple btn-secondary pd-x-30">Ambil Data Sarana</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
                                                     <br>
                                                     <div>
                                                         <button class="btn btn-main-primary " type="submit">Simpan</button>
