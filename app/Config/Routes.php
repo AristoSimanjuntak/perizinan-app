@@ -8,4 +8,5 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 $routes->get('dashboard', 'Home::dashboard');
 $routes->get('daftar', 'DaftarController::index');
+$routes->get('admin', 'AdminController::index');
 

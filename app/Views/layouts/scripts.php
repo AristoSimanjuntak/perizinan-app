@@ -56,3 +56,8 @@
         <script src="<?php echo  base_url('assets/plugins/datatable/fileexport/buttons.print.min.js'); ?>"></script>
         <script src="<?php echo  base_url('assets/plugins/datatable/fileexport/buttons.colVis.min.js'); ?>"></script>
         <script src="<?php echo  base_url('assets/js/table-data.js'); ?>"></script>
+
+
+       
+       
+        </script>
